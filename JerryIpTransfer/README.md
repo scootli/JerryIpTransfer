@@ -34,7 +34,7 @@ Sample Output：
 
 ###运行方式
 
-项目是用maven进行管理的，如果你不关心项目管理方式，可以直接下载项目的bin目录中的JerryIpTransfer-1.0.jar文件，然后使用以下命令运行
+项目是用maven进行管理的，如果你不关心项目管理方式，可以直接下载项目的bin目录中的JerryIpTransfer-1.0.jar文件，然后使用以下命令运行(需要提前安装jdk)
 ```
 java -cp JerryIpTransfer-1.0.jar com.baicizhan.jerry.test.JerryIpTransfer
 ```
