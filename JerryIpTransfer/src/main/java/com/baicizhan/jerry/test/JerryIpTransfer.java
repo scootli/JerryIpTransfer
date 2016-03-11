@@ -25,7 +25,7 @@ public class JerryIpTransfer {
                 //System.out.println("a index: " + index + " previous: " + previous + " currentNum: " + currentNum);
                 totalNum +=  currentNum;
                 if(totalNum > 32){
-                    System.out.println("输入不合法,输入的ab个数总数超过了32");
+                    System.out.println("Input error,the number of a and b is more than 32");
                     return;
                 }
                 powerNum -= currentNum;
@@ -38,7 +38,7 @@ public class JerryIpTransfer {
                 //System.out.println("a index: " + index + " previous: " + previous + " currentNum: " + currentNum);
                 totalNum +=  currentNum;
                 if(totalNum > 32){
-                    System.out.println("输入不合法,输入的ab个数总数超过了32");
+                    System.out.println("Input error,the number of a and b is more than 32");
                     return;
                 }
                 for(int jndex= 0;jndex < currentNum;jndex++){
@@ -48,14 +48,14 @@ public class JerryIpTransfer {
                 //System.out.println("powerNum is : " + Math.pow(2, powerNum));
                 previous = index;
             }else if(!Character.isDigit(currentCharacter)){
-                System.out.println("输入不合法,输入中包含非法字符");
+                System.out.println("Input error,Input have illegal characters");
                 return;
             }
         }
         
         //System.out.println("total is: " + total);
         if(totalNum < 32){
-            System.out.println("输入不合法,输入的ab个数总数小于32");
+            System.out.println("Input error,the number of a and b is less than 32");
             return;
         }
         
